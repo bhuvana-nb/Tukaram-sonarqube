@@ -31,14 +31,14 @@
 
   <distributionManagement>
     <repository>
-      <id>nexus</id>
-      <url>http://3.110.89.67:8081/repository/maven-releases/</url>
+        <id>nexus</id>
+        <url>http://3.110.89.67:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>nexus</id>
-      <url>http://3.110.89.67:8081/repository/maven-snapshots/</url>
+        <id>nexus</id>
+        <url>http://3.110.89.67:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
-  </distributionManagement>
+</distributionManagement>
 
   <build>
     <plugins>
